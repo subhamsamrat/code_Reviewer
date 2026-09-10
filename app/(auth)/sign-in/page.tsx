@@ -29,7 +29,6 @@ type SignInPageProps = {
 
 const SignInPage = async({searchParams}:SignInPageProps) => {
     const {callbackUrl} = await searchParams;
-    console.log("search params:",searchParams,"callback:",callbackUrl);
   return (
      <Card className="border-border/80 shadow-sm">
       <CardHeader className="items-center text-center">
